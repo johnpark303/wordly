@@ -1,0 +1,45 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.key-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.key-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 60px;
+  border: 2px solid rgb(127, 128, 131);
+  background-color: rgb(127, 128, 131);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.key-button-larger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 60px;
+  border: 2px solid rgb(127, 128, 131);
+  background-color: rgb(127, 128, 131);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.key-button-larger img {
+  width: 30px;
+  height: 30px;
+}

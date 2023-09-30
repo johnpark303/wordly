@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  /* 직관적으로 간격 떨어트리기 */
+  margin: 20px 0 40px 0;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(229, 230, 232);
+  width: 60px;
+  height: 60px;
+}
