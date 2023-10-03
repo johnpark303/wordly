@@ -27,4 +27,7 @@ main {
   border: 3px solid rgb(229, 230, 232);
   width: 60px;
   height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  /* 입력하면 나오는 문자의 폰트 변경 */
 }
